@@ -1,0 +1,31 @@
+{
+  "name": "aws-lp-detecter-discord-bot",
+  "version": "1.0.0",
+  "description": "AWS LP detector",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "build": "npx tsc --project tsconfig.json",
+    "clean": "rm -rf index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matthewzhaocc/aws-lp-detecter-discord-bot.git"
+  },
+  "keywords": [
+    "Discord",
+    "AWS"
+  ],
+  "author": "Matthew Zhao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matthewzhaocc/aws-lp-detecter-discord-bot/issues"
+  },
+  "homepage": "https://github.com/matthewzhaocc/aws-lp-detecter-discord-bot#readme",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "typescript": "^4.2.4",
+    "@types/node": "^15.0.2"
+  }
+}
